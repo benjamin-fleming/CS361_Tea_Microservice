@@ -16,12 +16,12 @@ For example, to request a green tea with low caffeine (ignoring type), you would
 green, none, low
 
 ### Example call in Python:
-def request_data(flavor, tea_type, caffeine):
-    criteria = f"{flavor}, {tea_type}, {caffeine}"
-    with open("tea_input.txt", "w") as f:
-        f.write(criteria)
-
-request_data("green", "none", "low")
+    def request_data(flavor, tea_type, caffeine):
+        criteria = f"{flavor}, {tea_type}, {caffeine}"
+        with open("tea_input.txt", "w") as f:
+            f.write(criteria)
+    
+    request_data("green", "none", "low")
 
 
 
@@ -32,14 +32,15 @@ After processing, the microservice writes the tea recommendation to "tea_output.
 To receive the data, read the contents of this file.
 
 ### Example call in Python:
-import time
 
-def receive_data():
-    result = ""
-    while not result:
-        with open("tea_output.txt", "r") as f:
-            result = f.read().strip()
-        time.sleep(1)
-    return result
+    import time
 
-print("Tea Recommendation:", receive_data())
+    def receive_data():
+        result = ""
+        while not result:
+            with open("tea_output.txt", "r") as f:
+                result = f.read().strip()
+            time.sleep(1)
+        return result
+
+    print("Tea Recommendation:", receive_data())
