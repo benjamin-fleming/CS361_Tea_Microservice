@@ -39,7 +39,7 @@ def receive_data():
     while not result:
         with open("tea_output.txt", "r") as f:
             result = f.read().strip()
-        time.sleep(1)  # Polling delay
+        time.sleep(1)
     return result
 
 print("Tea Recommendation:", receive_data())
