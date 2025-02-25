@@ -1,4 +1,4 @@
-# Program: Random Tea Generator Micoservice
+# Program: Random Tea Generator Microservice
 **Author**: Benjamin Fleming
 
 **Institution**: OSU - CS 361
