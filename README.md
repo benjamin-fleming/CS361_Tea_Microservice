@@ -1,7 +1,7 @@
-# Program: Random Tea Generator Micoservice
-# Benjamin Fleming
-# OSU - CS 361
-# 02/24/2025
+Program: Random Tea Generator Micoservice
+Benjamin Fleming
+OSU - CS 361
+02/24/2025
 
 REQUESTING DATA
 -------------------------------------------
