@@ -10,7 +10,7 @@
 -------------------------------------------
 To request tea data, write a comma-separated line of criteria to the "tea_input.txt" file.
 The expected format is:
-<flavor>, <type>, <caffeine>
+"<"flavor">", "<"type">", "<"caffeine">"
 
 For example, to request a green tea with low caffeine (ignoring type), you would write:
 green, none, low
