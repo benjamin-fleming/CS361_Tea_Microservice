@@ -1,7 +1,10 @@
 # Program: Random Tea Generator Micoservice
 **Author**: Benjamin Fleming
+
 **Institution**: OSU - CS 361
+
 **Date**: 02/24/2025
+
 
 ## REQUESTING DATA
 -------------------------------------------
@@ -12,7 +15,7 @@ The expected format is:
 For example, to request a green tea with low caffeine (ignoring type), you would write:
 green, none, low
 
-## Example call in Python:
+### Example call in Python:
 def request_data(flavor, tea_type, caffeine):
     criteria = f"{flavor}, {tea_type}, {caffeine}"
     with open("tea_input.txt", "w") as f:
@@ -21,12 +24,14 @@ def request_data(flavor, tea_type, caffeine):
 request_data("green", "none", "low")
 
 
+
+
 ## RECEIVING DATA
 -------------------------------------------
 After processing, the microservice writes the tea recommendation to "tea_output.txt"
 To receive the data, read the contents of this file.
 
-## Example call in Python:
+### Example call in Python:
 import time
 
 def receive_data():
