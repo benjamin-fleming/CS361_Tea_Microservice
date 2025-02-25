@@ -44,3 +44,8 @@ To receive the data, read the contents of this file.
         return result
 
     print("Tea Recommendation:", receive_data())
+
+
+## UML
+-------------------------------------------
+![image](https://github.com/user-attachments/assets/354ab80b-e3f4-4bcf-9c62-f85b8b529e4c)
